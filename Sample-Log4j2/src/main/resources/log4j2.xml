@@ -5,7 +5,7 @@
 <Configuration status="INFO" name="log-test" packages="org.practice.log4j2.cpl">
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="{content-type : %ct} %n"/>
+            <PatternLayout pattern="{content-type : %ct} {User-Agent : %ua} %n"/>
         </Console>
     </Appenders>
     <Loggers>
